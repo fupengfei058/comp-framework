@@ -1,0 +1,57 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "d6d0a756551626017adde444852ea98d",
+    "content-hash": "4c157512afd1add46a31a68e7f41f617",
+    "packages": [
+        {
+            "name": "noahbuscher/macaw",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/noahbuscher/Macaw.git",
+                "reference": "83691ad7922afcdd83dbfdce4ad4b2ca16d997f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/noahbuscher/Macaw/zipball/83691ad7922afcdd83dbfdce4ad4b2ca16d997f3",
+                "reference": "83691ad7922afcdd83dbfdce4ad4b2ca16d997f3",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "NoahBuscher\\Macaw\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Simple PHP router class.",
+            "time": "2017-07-17 00:42:20"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "noahbuscher/macaw": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
