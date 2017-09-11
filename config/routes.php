@@ -2,7 +2,7 @@
 
 use NoahBuscher\Macaw\Macaw;
 
-Macaw::get('fuck', function() {
+Macaw::get('index', function() {
 echo "成功！";
 });
 
