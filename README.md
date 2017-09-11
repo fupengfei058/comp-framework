@@ -1,4 +1,4 @@
-# comp-framwork
+# comp-framework
 使用composer搭建的php框架
 
 ### DONE
