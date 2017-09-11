@@ -1,5 +1,5 @@
 # comp-framwork
-* 使用composer搭建的php框架
+使用composer搭建的php框架
 
 ### Done
 * 路由
