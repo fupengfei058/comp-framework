@@ -20,11 +20,17 @@ class ComposerStaticInit0f2b175f0e296482e8caffaf461b220e
         ),
     );
 
+    public static $classMap = array (
+        'BaseController' => __DIR__ . '/../..' . '/app/controllers/BaseController.php',
+        'HomeController' => __DIR__ . '/../..' . '/app/controllers/HomeController.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit0f2b175f0e296482e8caffaf461b220e::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit0f2b175f0e296482e8caffaf461b220e::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit0f2b175f0e296482e8caffaf461b220e::$classMap;
 
         }, null, ClassLoader::class);
     }
