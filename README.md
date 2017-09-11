@@ -1,7 +1,7 @@
 # comp-framwork
 使用composer搭建的php框架
 
-### Done
+### DONE
 * 路由
 * MVC
 * ORM
